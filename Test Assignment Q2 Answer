@@ -1,0 +1,17 @@
+To be honest I'm not super familiar with the concept of machine learning and computer vision programs such as OpenCV, but
+This is a quick summary on what I found based on articles and videos online such as:
+https://medium.com/swlh/image-classification-for-playing-cards-26d660f3149e
+https://www.youtube.com/watch?v=y2kthSUPDN4
+https://www.youtube.com/watch?v=m-QPjO-2IkA&t=121s
+
+For an application that is able to recognize the value and suit of the card that appears on video I would need to:
+
+1) Get images of each card at different angles, lightnings, distances, orientation
+2) In context of C# and .Net use Accord.NET for computer vision and AI
+3) Convert image to greyscale to allow better detection due to there being less information to process
+4) Use edge detection
+5) Use some form of machine learning model like ML.NET to load and transform data
+6) Train model to use the data
+7) Implement software
+
+For a more detailed answer I would definitely need more time to study this subject more in depth, but for now at least I understand the general idea of what is done and how.
